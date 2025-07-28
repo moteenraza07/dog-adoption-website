@@ -1,27 +1,29 @@
 :root {
-    --colour-one: #638C6D;
-    --colour-two: #E7FBB4;
-    --colour-three: #DF6D2D;
-    --colour-four: #C84C05;
-    --border-radus: 10px;
+  --colour-one: #638C6D;
+  --colour-two: #E7FBB4;
+  --colour-three: #DF6D2D;
+  --colour-four: #C84C05;
+  --border-radius: 10px;
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT';
-    font-style: normal;
-    font-weight: 800;
-    color: white;
-    background-color: #C84C05;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  background-color: #C84C05;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: block;
 }
 
 .nav-container {
-	width: 80%;
-	margin: 0 auto;
-    padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: var(--border-radius);
 }
 
 header {
@@ -32,11 +34,6 @@ header::after {
   content: '';
   display: table;
   clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 10px;
 }
 
 nav {
@@ -59,8 +56,7 @@ nav li {
 nav a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -72,14 +68,58 @@ nav a::before {
   display: block;
   height: 5px;
   background-color: #444;
-
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
   width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.body-class {
+  background-color: var(--colour-one);
+  border: 5px solid var(--colour-one);
+  border-radius: var(--border-radius);
+  padding: 20px 20px;
+  margin: auto;
+}
+
+.adopt-text {
+  font-size: large;
+}
+
+.start {
+  background-color: var(--colour-two);
+  width: 15%;
+  padding: 20px 20px;
+  margin-top: 1%;
+  margin-left: 2.5%;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.dogs {
+  position: relative;
+  margin-left: 40%;
+  width: 30%;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  font-size: x-small;
 }
