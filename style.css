@@ -110,6 +110,13 @@ h2 {
   font-weight: bold;
   color: black;
   text-align: center;
+  transition: background-color 0.5s;
+}
+
+.start:hover {
+  background-color: var(--colour-three);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .dogs {
