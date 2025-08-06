@@ -98,11 +98,15 @@ h2 {
   font-size: large;
 }
 
+.about-text {
+  text-align: justify;
+  width: 600px;
+}
+
 .start {
   background-color: var(--colour-two);
   width: 15%;
   padding: 20px 20px;
-  margin-top: 1%;
   margin-left: 2.5%;
   border: none;
   border-radius: var(--border-radius);
@@ -122,7 +126,7 @@ h2 {
 .dogs {
   position: relative;
   margin-left: 40%;
-  width: 30%;
+  width: 35%;
 }
 
 footer {
