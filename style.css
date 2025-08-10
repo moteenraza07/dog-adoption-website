@@ -123,6 +123,15 @@ h2 {
   cursor: pointer;
 }
 
+.dog-adopt {
+  width: 45%;
+  height: 100%;
+  border: solid 2px var(--colour-three);
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 10px 10px;
+}
+
 .dogs {
   position: relative;
   margin-left: 40%;
@@ -133,4 +142,22 @@ footer {
   position: static;
   bottom: 0;
   font-size: x-small;
+}
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
 }
