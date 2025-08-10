@@ -98,15 +98,21 @@ h2 {
   font-size: large;
 }
 
+
 .about-text {
   text-align: justify;
   width: 600px;
 }
 
+
+
 .start {
   background-color: var(--colour-two);
   width: 15%;
   padding: 20px 20px;
+
+
+
   margin-left: 2.5%;
   border: none;
   border-radius: var(--border-radius);
@@ -123,6 +129,7 @@ h2 {
   cursor: pointer;
 }
 
+
 .dog-adopt {
   width: 45%;
   height: 100%;
@@ -136,12 +143,12 @@ h2 {
   position: relative;
   margin-left: 40%;
   width: 35%;
-}
 
 footer {
   position: static;
   bottom: 0;
   font-size: x-small;
+
 }
 
 .invalid-feedback,
@@ -161,3 +168,6 @@ footer {
 .was-validated :invalid {
   border-color: #dc3545;
 }
+
+}
+
