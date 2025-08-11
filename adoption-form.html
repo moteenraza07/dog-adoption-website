@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adoption Form</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <script src="form.js" defer></script>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                     <div class="form-wrapper">
 
 
-                        <form action="" method="">
+                        <form id = "form" action="" method="">
 
                             <div class="form-header">
                                 <h2 class="form-title">Submit Your Adoption Request</h2>
@@ -50,12 +50,14 @@
 
                             <div class="form-group">
                                 <label for="fullname" class="form-label">Full Name*</label>
-                                <input type="text" name="fullname" id="fullname" class="form-input" required />
+                                <input type="text" name="fullname" id="fullname" class="form-input"  />
+                                <p class="error-message" id = "error-fullname"></p>
                             </div>
 
                             <div class="form-group">
                                 <label for="email" class="form-label">Email Address*</label>
-                                <input type="email" name="email" id="email" class="form-input" required />
+                                <input type="email" name="email" id="email" class="form-input" />
+                                <p class="error-message" id = "error-email"></p>
                             </div>
 
                             <div class="form-group">
@@ -66,13 +68,15 @@
 
                             <div class="form-group">
                                 <label for="pet-name" class="form-label">Pet Name*</label>
-                                <input type="text" name="pet-name" id="pet-name" class="form-input" required />
+                                <input type="text" name="pet-name" id="pet-name" class="form-input" />
+                                <p class="error-message" id = "error-pet-name"></p>
                             </div>
 
                             <div class="form-group">
                                 <label for="message" class="form-label">Message / Question*</label>
                                 <textarea name="message" id="message" rows="5" class="form-textarea"
-                                    required></textarea>
+                                    ></textarea>
+                                    <p class="error-message" id ="error-message-box"></p>
                             </div>
 
 
@@ -92,10 +96,11 @@
 
 
                             <div class="consent-group">
-                                <input type="checkbox" id="consentCheckbox" class="form-checkbox" required />
+                                <input type="checkbox" id="consentCheckbox" class="form-checkbox" />
                                 <label for="consentCheckbox" class="consent-label">
                                     I agree to be contacted regarding my request.
                                 </label>
+                                <p id="consent-error" class="error-message"></p>
                             </div>
 
                             <button type="submit" class="submit-btn">Submit Inquiry</button>
