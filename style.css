@@ -166,3 +166,10 @@ h2 {
 .dog-photo {
   max-width: 300px;
 }
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 7px;
+  display: block;
+}
