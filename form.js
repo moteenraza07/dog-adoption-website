@@ -60,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
       hasError = true;
     }
 
+    // validate checkbox
+
     if (!checkbox.checked) {
       errorConsent.textContent =
         "Please agree to be contacted before submitting";
@@ -67,5 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (hasError) return;
+
+    form.reset();
   });
 });
