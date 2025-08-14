@@ -1,2 +1,4 @@
 # dog-adoption-website
-A website for browsing adoptable dogs by city using HTML, CSS, and JavaScript
+This branch is being used to focus on remedying any issues with the CSS across the website
+
+Also for updating form css and adding mobile responsiveness
