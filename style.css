@@ -99,8 +99,8 @@ h2 {
 }
 
 .about-text {
-  text-align: justify;
-  width: 600px;
+  text-align: center;
+  width: 30%;
 }
 
 .start {
@@ -130,6 +130,7 @@ h2 {
   border: solid 2px var(--colour-three);
   border-radius: 10px;
   margin-left: 5px;
+  margin-bottom: 20px;
   padding: 10px 10px;
 }
 
@@ -137,31 +138,32 @@ h2 {
   position: relative;
   margin-left: 40%;
   width: 35%;
-
-  footer {
-    position: static;
-    bottom: 0;
-    font-size: x-small;
-  }
-
-  .invalid-feedback,
-  .empty-feedback {
-    display: none;
-  }
-
-  .was-validated :placeholder-shown:invalid ~ .empty-feedback {
-    display: block;
-  }
-
-  .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-    display: block;
-  }
-
-  .is-invalid,
-  .was-validated :invalid {
-    border-color: #dc3545;
-  }
 }
+
+footer {
+  position: static;
+  bottom: 0;
+  font-size: x-small;
+}
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid~.empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid~.invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
 
 .dog-photo {
   max-width: 300px;
@@ -172,4 +174,76 @@ h2 {
   font-size: 16px;
   margin-top: 7px;
   display: block;
+}
+
+.send-button {
+  background-color: var(--colour-two);
+  width: 15%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 2.5%;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+.submit-btn {
+  background-color: var(--colour-two);
+  width: 15%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 2.5%;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+/* CSS responsiveness */
+
+/* Cell phones: */
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    grid-area: 1 / span 6;
+    flex-direction: column;
+  }
+
+  .text-content {
+    grid-area: 2 / span 6;
+  }
+
+  .start {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .send-button {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .submit-btn {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .about-text {
+    font-size: medium;
+  }
+
+  h2 {
+    font-size: x-large;
+  }
+
+  .dogs {
+    width: 30%;
+  }
 }
