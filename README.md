@@ -1,4 +1,5 @@
 # dog-adoption-website
+
 A website for browsing adoptable dogs by city using HTML, CSS, and JavaScript
 
 
@@ -25,3 +26,4 @@ A website for browsing adoptable dogs by city using HTML, CSS, and JavaScript
 ![Contact Us Page](assets/Screenshot%204.png)
 
 > A simple contact us form for any questions, comments or concerns.
+>>>>>>> main

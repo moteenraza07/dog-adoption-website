@@ -99,9 +99,12 @@ h2 {
 }
 
 .about-text {
-  text-align: justify;
-  width: 600px;
+
+  text-align: center;
+  width: 30%;
 }
+
+
 
 .start {
   background-color: var(--colour-two);
@@ -130,6 +133,10 @@ h2 {
   border: solid 2px var(--colour-three);
   border-radius: 10px;
   margin-left: 5px;
+
+  margin-bottom: 20px;
+
+
   padding: 10px 10px;
 }
 
@@ -138,30 +145,33 @@ h2 {
   margin-left: 40%;
   width: 35%;
 
-  footer {
-    position: static;
-    bottom: 0;
-    font-size: x-small;
-  }
-
-  .invalid-feedback,
-  .empty-feedback {
-    display: none;
-  }
-
-  .was-validated :placeholder-shown:invalid ~ .empty-feedback {
-    display: block;
-  }
-
-  .was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-    display: block;
-  }
-
-  .is-invalid,
-  .was-validated :invalid {
-    border-color: #dc3545;
-  }
 }
+
+footer {
+  position: static;
+  bottom: 0;
+  font-size: x-small;
+}
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid~.empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid~.invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
+
 
 .dog-photo {
   max-width: 300px;
@@ -172,4 +182,93 @@ h2 {
   font-size: 16px;
   margin-top: 7px;
   display: block;
+}
+
+
+.send-button {
+  background-color: var(--colour-two);
+  width: 15%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 2.5%;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+.send-button:hover {
+  background-color: var(--colour-three);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: var(--colour-two);
+  width: 15%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 2.5%;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: x-large;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: var(--colour-three);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* CSS responsiveness */
+
+/* Cell phones: */
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    text-align: left;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .start {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .send-button {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .submit-btn {
+    font-size: medium;
+    width: 25%;
+  }
+
+  .about-text {
+    font-size: medium;
+    width: 60%;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .dogs {
+    max-width: 100%;
+    height: auto;
+  }
 }
