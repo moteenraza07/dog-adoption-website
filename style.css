@@ -99,15 +99,18 @@ h2 {
 }
 
 .about-text {
+
   text-align: center;
   width: 30%;
 }
+
 
 
 .start {
   background-color: var(--colour-two);
   width: 15%;
   padding: 20px 20px;
+
   margin-left: 2.5%;
   border: none;
   border-radius: var(--border-radius);
@@ -130,7 +133,10 @@ h2 {
   border: solid 2px var(--colour-three);
   border-radius: 10px;
   margin-left: 5px;
+
   margin-bottom: 20px;
+
+
   padding: 10px 10px;
 }
 
@@ -138,6 +144,7 @@ h2 {
   position: relative;
   margin-left: 40%;
   width: 35%;
+
 }
 
 footer {
@@ -165,6 +172,7 @@ footer {
 }
 
 
+
 .dog-photo {
   max-width: 300px;
 }
@@ -175,6 +183,7 @@ footer {
   margin-top: 7px;
   display: block;
 }
+
 
 .send-button {
   background-color: var(--colour-two);
