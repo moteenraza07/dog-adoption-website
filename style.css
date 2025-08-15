@@ -108,7 +108,6 @@ h2 {
   background-color: var(--colour-two);
   width: 15%;
   padding: 20px 20px;
-
   margin-left: 2.5%;
   border: none;
   border-radius: var(--border-radius);
@@ -192,6 +191,12 @@ footer {
   transition: background-color 0.5s;
 }
 
+.send-button:hover {
+  background-color: var(--colour-three);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .submit-btn {
   background-color: var(--colour-two);
   width: 15%;
@@ -205,6 +210,12 @@ footer {
   color: black;
   text-align: center;
   transition: background-color 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: var(--colour-three);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /* CSS responsiveness */
