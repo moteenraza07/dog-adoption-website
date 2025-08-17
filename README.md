@@ -34,6 +34,7 @@ A website for browsing adoptable dogs using HTML, CSS, and JavaScript
 
 [![Watch the video](https://img.youtube.com/vi/58GT7o8tq10/0.jpg)](https://www.youtube.com/watch?v=58GT7o8tq10) - Shabhnam Hajiyeva
 
+[![Watch the video](https://img.youtube.com/vi/9R4gJr0fzD93wlYa/0.jpg)](https://youtu.be/nIutvZQrfFQ?si=KdN3VfXChUf2F9QZ) - Daniel Gardiner 
 
 This project is a dog adoption website that generates details of a random dog that's available for adoption. Once the user likes the dog they want to adopt, they will be directed to the adoption form page where they have to fill out their personal details. The goal for this website was to make it an easy process for families to find a dog they are looking to adopt. 
 
