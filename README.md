@@ -1,6 +1,6 @@
 # dog-adoption-website
 
-A website for browsing adoptable dogs by city using HTML, CSS, and JavaScript
+A website for browsing adoptable dogs using HTML, CSS, and JavaScript
 
 
 ![Home Page](assets/Screenshot%201.png)
@@ -27,3 +27,34 @@ A website for browsing adoptable dogs by city using HTML, CSS, and JavaScript
 
 > A simple contact us form for any questions, comments or concerns.
 >>>>>>> main
+
+# Watch my javascript presentation Here: 
+
+[![Watch the video](https://img.youtube.com/vi/mu2yw8xWzvE/0.jpg)](https://www.youtube.com/watch?v=mu2yw8xWzvE) - Moteen Raza Bag
+
+[![Watch the video](https://img.youtube.com/vi/58GT7o8tq10/0.jpg)](https://www.youtube.com/watch?v=58GT7o8tq10) - Shabhnam Hajiyeva
+
+
+This project is a dog adoption website that generates details of a random dog that's available for adoption. Once the user likes the dog they want to adopt, they will be directed to the adoption form page where they have to fill out their personal details. The goal for this website was to make it an easy process for families to find a dog they are looking to adopt. 
+
+# Screen Shots: 
+
+Here's a preview of the live application: 
+
+![Adoption page] <img width="1652" height="749" alt="Dog-adoption-image-1" src="https://github.com/user-attachments/assets/4281e3a8-e753-4e24-817c-bf0f9860f404" />
+![Form page] <img width="1707" height="942" alt="Dog-adoption-image-2" src="https://github.com/user-attachments/assets/f1fb4173-ed52-4680-9c86-4af0c2c1c7f6" />
+
+# Features
+
+* Browse Dog's available for adoption
+* Mobile and Desktop responsive website
+* View Dog details such as name, age, gender and iamge
+* Demo video
+
+# Developers
+
+Moteen Raza Bag - Backend Developer - Javascript features / api features
+Daniel Gardiner - Full Stack - Design CSS / api features JS
+Shebnem Hajiyeva - Frontend Developer - HTML Structure
+
+
